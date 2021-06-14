@@ -1,13 +1,23 @@
+@font-face {
+    font-family: "MinecraftRegular";
+    src: url(others/minecraft-font/MinecraftRegular-Bmg3.otf);
+}
+
 body, main {
     background-color: aliceblue;
     padding: 1%;
+    font-family: "MinecraftRegular";
 }
 
 header {
     padding: 2%;
 }
 
-
+#menuButton{
+    background-color: transparent;
+    border: transparent; 
+    font-family: "MinecraftRegular";   
+}
 
 .tabButtons {
     margin: 5px;
@@ -21,6 +31,12 @@ header {
 .tabButtonCol {
     flex: 0 1 20%;
     margin: 5px;
+}
+
+.tabButtonClickables{
+    font-family: "MinecraftRegular";
+    background-color: transparent;
+    border: transparent; 
 }
 
 .homeTabContent{
