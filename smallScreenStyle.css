@@ -15,8 +15,17 @@ header {
 
 #menuButton{
     background-color: transparent;
-    border: transparent; 
+    border-color: transparent; 
     font-family: "MinecraftRegular";   
+}
+
+#menuButton:hover{
+    background-color: cadetblue;
+    border-bottom-color: blueviolet;
+    border-bottom-width: 7%;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
 }
 
 .tabButtons {
@@ -36,8 +45,16 @@ header {
 .tabButtonClickables{
     font-family: "MinecraftRegular";
     background-color: transparent;
-    border: transparent; 
+    border-color: transparent; 
+    border-bottom: 7%;
 }
+
+.tabButtonClickables:hover{
+    border-bottom: 7%;
+    border-bottom-color: blueviolet;
+}
+
+.tabButtonClickables:
 
 .homeTabContent{
     display: flex;
