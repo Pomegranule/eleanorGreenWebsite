@@ -1,0 +1,35 @@
+body, main {
+    background-color: aliceblue;
+    padding: 1%;
+}
+
+header {
+    padding: 2%;
+}
+
+
+
+.tabButtons {
+    margin: 5px;
+    padding: 1%;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.tabButtonCol {
+    flex: 0 1 20%;
+    margin: 5px;
+}
+
+.homeTabContent{
+    display: flex;
+    margin: 
+}
+
+.profileGif{
+    flex: 0 1 50px;
+    margin: 5px;
+    max-width: 100%;
+}
