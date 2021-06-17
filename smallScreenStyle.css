@@ -20,12 +20,46 @@ body{
 }
 
 main {
-    margin-left: 5rem;
-
+    margin: 3rem;
+    
 }
 
-.tabButtons{
+.profileGif{
+    max-width: 100%;
+}
+
+/* Navbar animation */
+.navbar{
     bottom: 0;
     width: 100vw;
     height: 5rem;
+}
+
+.navbarList{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.tabButtonClickables{
+    justify-content: space-evenly;
+}
+
+.buttonText{
+    display: none;
+    margin-left: 1rem;
+}
+
+.tabButtonClickables img{
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navbar:hover {
+    width: 100vw;
+}
+
+.navbar:hover .buttonText {
+    display: none;
 }

@@ -10,25 +10,47 @@
 </head>
 <body>
     <!-- Start of tab buttons. -->
-    <header>
-        <div class="tabButtons">              
-            <div class="tabButtonCol" id="homeTabButton">
-                <button class="tabButtonClickables"><img src="images/placeholderButton.png"><br>Home</button>
-            </div>
-            <div class="tabButtonCol" id="keyskillsTabButton">
-                <button class="tabButtonClickables"><img src="images/placeholderButton.png"><br>Key Skills</button>
-            </div>
-            <div class="tabButtonCol" id="timelineTabButton">
-                <button class="tabButtonClickables"><img src="images/placeholderButton.png"><br>Timeline</button>
-            </div>
-            <div class="tabButtonCol" id="CVTabButton">
-                <button class="tabButtonClickables"><img src="images/placeholderButton.png"><br>CV</button>
-            </div>
-            <div class="tabButtonCol" id="contactMeTabButton">
-                <button class="tabButtonClickables"><img src="images/placeholderButton.png"><br>Contact Me!</button>
-            </div>
-        </div>
-    </header>
+    <nav class="navbar">
+        <!-- "navbar-nav" -->
+        <ul class="navbarList">
+            <!-- "nav-item" -->
+            <li class="tabButton">
+                <!-- "nav-link" -->
+                <button class="tabButtonClickables">
+                    <img src="images/placeholderButton.png">
+                    <!-- "link-text" -->
+                    <span class="buttonText">Home</span>
+                </button>
+            </li>
+
+            <li class="tabButton">
+                <button class="tabButtonClickables">
+                    <img src="images/placeholderButton.png">
+                    <span class="buttonText">Key Skills</span>
+                </button>
+            </li>
+
+            <li class="tabButton">
+                <button class="tabButtonClickables">
+                    <img src="images/placeholderButton.png">
+                    <span class="buttonText">Timeline</span>
+                </button>
+            </li>
+            <li class="tabButton">
+                <button class="tabButtonClickables">
+                    <img src="images/placeholderButton.png">
+                    <span class="buttonText">CV</span>
+                </button>
+            </li>
+            <li class="tabButton" id="contactMe">
+                <button class="tabButtonClickables">
+                    <img src="images/placeholderButton.png">
+                    <span class="buttonText">Contact Me!</span>
+                </button>
+            </li>
+        </ul> 
+        
+    </nav>
     <!-- End of Tab buttons. -->
     <main>
         <!-- Start of Tab Content -->
@@ -41,9 +63,9 @@
                     <fieldset>
                         <legend>Full Stack Engineer</legend>
                         <img src="images/Blinking_Neon_Pomegranule.gif" class="profileGif">
-                        <p>A detail oriented and inquisitive apprentice with a real passion for building up projects from scratch. Competent in JavaScript, HTML and CSS, with a hunger for additional languages.</p>
-                        <p>Well balanced; able to be a valuable member of a team as well as an efficient independent worker.</p>
-                        <p>Professional, organized and reliable, having excellent written and verbal communication skills. With a desire to provide support, motivation and guidance to fellow colleagues</p>
+                        <p class="profilePara">A detail oriented and inquisitive apprentice with a real passion for building up projects from scratch. Competent in JavaScript, HTML and CSS, with a hunger for additional languages.</p>
+                        <p class="profilePara">Well balanced; able to be a valuable member of a team as well as an efficient independent worker.</p>
+                        <p class="profilePara">Professional, organized and reliable, having excellent written and verbal communication skills. With a desire to provide support, motivation and guidance to fellow colleagues</p>
                     </fieldset>
                 </div>
             </div>
